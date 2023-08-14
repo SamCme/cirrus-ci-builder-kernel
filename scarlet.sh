@@ -16,7 +16,7 @@ CYAN="\033[0;36m"
 # User details
 USER='SamCme'
 HOST='Samuel (cirrus)'
-TOKEN="5999867098:AAHgP8qQrLzTekx3YTJ9N2rkiKH6_9HWDhI"
+TOKEN="p"
 CHATID="6626059402"
 BOT_MSG_URL="https://api.telegram.org/bot${TOKEN}/sendMessage"
 BOT_BUILD_URL="https://api.telegram.org/bot${TOKEN}/sendDocument"
