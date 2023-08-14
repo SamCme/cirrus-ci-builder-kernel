@@ -14,15 +14,15 @@ YELLOW="\033[1;33m"
 CYAN="\033[0;36m"
 
 # User details
-USER='Tashar'
-HOST='Cirrus'
-TOKEN="${token}"
-CHATID="${chat_id}"
+USER='SamCme'
+HOST='Samuel (cirrus)'
+TOKEN="5999867098:AAHgP8qQrLzTekx3YTJ9N2rkiKH6_9HWDhI"
+CHATID="6626059402"
 BOT_MSG_URL="https://api.telegram.org/bot${TOKEN}/sendMessage"
 BOT_BUILD_URL="https://api.telegram.org/bot${TOKEN}/sendDocument"
-DEVICE='Mi A2 / 6X'
-CODENAME='wayne'
-CODENAME2='jasmine'
+DEVICE='Redmi Note 12s'
+CODENAME='sea'
+CODENAME2='ocean'
 PROCS="$(nproc --all)"
 
 # Paths
