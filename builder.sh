@@ -21,11 +21,12 @@ cd ../..
 gsc https://github.com/Tashar02/AnyKernel3.git AnyKernel3
 
 # Clone Kernel Source
-gsc https://github.com/Atom-X-Devs/android_kernel_xiaomi_scarlet.git -b a13/qpnp-haptics Kernel
+gsc https://github.com/MiCode/Xiaomi_Kernel_OpenSource -b sea-s-oss Kernel
 
 # Setup Scripts
 mv scarlet.sh Kernel/scarlet.sh
 cd Kernel
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 
 # Compile the kernel using CLANG
 bash scarlet.sh --clang --newcam --qpnp --non-dynamic --full-lto
