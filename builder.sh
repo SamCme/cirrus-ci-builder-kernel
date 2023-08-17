@@ -21,11 +21,12 @@ cd ../..
 gsc https://github.com/Tashar02/AnyKernel3.git AnyKernel3
 
 # Clone Kernel Source
-gsc https://github.com/Atom-X-Devs/android_kernel_xiaomi_scarlet.git -b test Kernel
+gsc https://github.com/Maanush2004/android_kernel_realme_RMX1821.git -b lineage-18.1-rmui Kernel
 
 # Setup Scripts
 mv scarlet.sh Kernel/scarlet.sh
 cd Kernel
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 
 # Compile the kernel using CLANG
 bash scarlet.sh --clang --osscam --qti --non-dynamic --non-lto
